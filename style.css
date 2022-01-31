@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+  html{
+    display: table;
+    margin: auto;
+}
+
+.elso{
+    width: 250px;
+    height: 570px;
+    background-color: rgb(250, 189, 189);
+    color: rgb(235, 91, 91);
+    float:left;
+    padding:30px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px rgb(236, 160, 160);
+    border: 1px solid;
+}
+.elso li{
+    list-style-image: url('icon_bad.png');
+    line-height: 20px;
+}
+.masodik{
+    width: 250px;
+    height: 570px;
+    background-color: rgb(108, 238, 108);
+    color: green;
+    float:right;
+    padding: 30px;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px rgb(85, 182, 85);
+    border: 1px solid;
+}
+.masodik li{
+    list-style-image: url('icon_good.png');
+    line-height: 20px;
+}
+.img{
+    float: left;
+    width:250px;
+    height:570px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:100px;
+    height:100px;
+}
+h2{
+    padding: 10px;
+    font-size: 20px;
+}
+#torzs{
+    margin-top: 30px;
+}
